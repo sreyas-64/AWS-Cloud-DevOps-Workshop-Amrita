@@ -1,46 +1,282 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Resume</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Sreyas Krishna's cloud and technology portfolio.">
+  <title>Sreyas Krishna — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<header>
-			<h1>Yeshwanth L M</h1>
-			<p>Cloud Solutions Engineer/Architect</p>
-		</header>
-		<section>
-			<h2>Summary</h2>
-			<p>Experienced Cloud Engineer specializing in designing, implementing, and managing scalable cloud infrastructure on AWS, Azure, and Google Cloud. Proficient in deploying and optimizing cloud resources, automating infrastructure with tools like Terraform and CloudFormation, and ensuring high availability, security, and cost efficiency. Skilled in monitoring system performance, troubleshooting complex issues, and applying cloud best practices to meet business objectives. Strong background in managing cloud-native applications, containerization, and continuous integration/continuous deployment (CI/CD) pipelines.</p>
-		</section>
-		<section>
-			<h2>Skills</h2>
-			<ul>
-				<li>AWS</li>
-				<li>Azure</li>
-				<li>CICD</li>
-				<li>Google Cloud</li>
-				<li>Bootstrap</li>
-				<li>React</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Experience</h2>
-			<h3>Cloud Engineer, XYZ</h3>
-			<p>Developed and maintained multiple company websites using HTML, CSS, and JavaScript. Collaborated with designers and project managers to create visually appealing and user-friendly interfaces. Conducted regular code reviews to ensure high-quality and efficient code.</p>
-			<h3>Web Developer, ABC Agency</h3>
-			<p>Designed and implemented custom WordPress themes and plugins. Worked closely with clients to gather requirements and provide technical support. Conducted regular testing and debugging to ensure optimal performance.</p>
-		</section>
-		<section>
-			<h2>Education</h2>
-			<h3>Bachelor of Science in Computer Science</h3>
-			<p>University of ABC, Graduated May 20XX</p>
-		</section>
-		<section id="projects">
-			<h2>Projects</h2>
-			<p>Some text about your projects...</p>
-		</section>
-	</div>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <nav class="nav wrap">
+    <a class="brand" href="#home">
+      <span class="brand-mark">S</span>
+      <span>Sreyas Krishna<span class="muted">.dev</span></span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </div>
+
+    <a class="nav-cta" href="mailto:hello@example.com">
+      Let's connect ↗
+    </a>
+  </nav>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          CLOUD · AUTOMATION · ENGINEERING
+        </div>
+
+        <h1>
+          Building reliable<br>
+          systems for a <span class="gradient-text">cloud-first</span> world.
+        </h1>
+
+        <p class="hero-subtitle">
+          I'm <strong>Sreyas Krishna</strong>, a technology enthusiast
+          interested in cloud computing, automation, and modern web development.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">
+            Explore my work ↘
+          </a>
+          <a class="button button-quiet" href="mailto:hello@example.com">
+            Get in touch ↗
+          </a>
+        </div>
+
+        <div class="hero-footnote">
+          <span class="mini-line"></span>
+          Infrastructure with intention. Delivery with confidence.
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-large"></div>
+        <div class="orbit orbit-small"></div>
+
+        <div class="core-card">
+          <div class="core-icon">☁</div>
+          <span class="core-label">CLOUD SYSTEMS</span>
+          <strong>Built to scale.</strong>
+          <span class="core-caption">Secure · Automated · Resilient</span>
+        </div>
+
+        <div class="float-chip chip-aws">
+          <span class="chip-icon">⌘</span>
+          <span><b>AWS</b><small>Cloud infrastructure</small></span>
+        </div>
+
+        <div class="float-chip chip-cicd">
+          <span class="chip-icon">↻</span>
+          <span><b>CI / CD</b><small>Continuous delivery</small></span>
+        </div>
+
+        <div class="float-chip chip-cloud">
+          <span class="chip-icon">◇</span>
+          <span><b>Multi-cloud</b><small>Connected services</small></span>
+        </div>
+
+        <div class="visual-grid"></div>
+      </div>
+    </section>
+
+    <section class="stats wrap">
+      <div class="stat">
+        <span class="stat-number">01</span>
+        <span class="stat-label">Cloud architecture</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">02</span>
+        <span class="stat-label">Infrastructure automation</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">03</span>
+        <span class="stat-label">Deployment workflows</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">04</span>
+        <span class="stat-label">Performance & reliability</span>
+      </div>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-heading">
+        <p class="section-kicker">01 / ABOUT</p>
+        <h2>Turning complex infrastructure<br>
+          <span class="muted">into clear solutions.</span>
+        </h2>
+      </div>
+
+      <div class="about-grid">
+        <p class="section-lead">
+          I am passionate about technology, cloud computing,
+          software development, and solving real-world problems.
+        </p>
+
+        <div class="about-detail">
+          <p>
+            I am interested in learning how cloud platforms such as AWS,
+            Azure, and Google Cloud help build scalable and reliable systems.
+          </p>
+          <p>
+            I also enjoy exploring web development, automation,
+            and modern tools that make applications more useful and efficient.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="skills">
+      <div class="section-heading row-heading">
+        <div>
+          <p class="section-kicker">02 / TOOLKIT</p>
+          <h2>Technologies I work with.</h2>
+        </div>
+        <p class="heading-note">
+          Tools and technologies for building and maintaining modern systems.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-symbol">☁</span>
+          <h3>Cloud platforms</h3>
+          <p>Cloud services and infrastructure.</p>
+          <div class="tags">
+            <span>AWS</span>
+            <span>Azure</span>
+            <span>Google Cloud</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol">⌘</span>
+          <h3>Delivery & automation</h3>
+          <p>Automation and deployment workflows.</p>
+          <div class="tags">
+            <span>CI/CD</span>
+            <span>Terraform</span>
+            <span>CloudFormation</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol">▧</span>
+          <h3>Web development</h3>
+          <p>Creating modern and responsive websites.</p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="experience">
+      <div class="section-heading row-heading">
+        <div>
+          <p class="section-kicker">03 / EXPERIENCE</p>
+          <h2>Experience & practice.</h2>
+        </div>
+        <p class="heading-note">
+          Learning, practice, and hands-on development.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-meta">
+            Academic learning
+            <span class="timeline-index">01</span>
+          </div>
+          <div class="timeline-content">
+            <h3>Cloud & Technology</h3>
+            <p>
+              Exploring cloud computing, infrastructure concepts,
+              automation, and modern technology through learning and practice.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-meta">
+            Development
+            <span class="timeline-index">02</span>
+          </div>
+          <div class="timeline-content">
+            <h3>Web Development</h3>
+            <p>
+              Practising HTML, CSS, JavaScript, and React to build
+              responsive interfaces and useful web applications.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap lower-grid">
+      <div class="panel" id="education">
+        <p class="section-kicker">04 / EDUCATION</p>
+        <div class="panel-icon">⌂</div>
+        <h2>Learning that<br>builds foundations.</h2>
+        <h3>Integrated MCA</h3>
+        <p class="muted">Computer Applications</p>
+        <p class="panel-foot">
+          Amrita Vishwa Vidyapeetham · Mysuru Campus
+        </p>
+      </div>
+
+      <div class="panel project-panel" id="projects">
+        <p class="section-kicker">05 / PROJECTS</p>
+        <div class="panel-icon">↗</div>
+        <h2>Ideas into<br>
+          <span class="gradient-text">working systems.</span>
+        </h2>
+        <p>
+          Building projects to apply programming, cloud computing,
+          and problem-solving skills.
+        </p>
+        <div class="project-link">
+          Project showcase <span>↗</span>
+        </div>
+        <p class="small-note">
+          Add your project names, GitHub links, and descriptions here.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <a class="brand" href="#home">
+      <span class="brand-mark">S</span>
+      <span>Sreyas Krishna<span class="muted">.dev</span></span>
+    </a>
+
+    <p>Designed for clarity. Built for what's next.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
 </body>
 </html>
